@@ -603,14 +603,27 @@ footer .text span a:hover{
 }
 
 @media (max-width: 500px) {
-  main-container .image{
-    width: 50%;
-    height: 60%;
-    margin-bottom: 0px;
+  section .main-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
   }
 
-  .main-container .content{
-    width: 80%;
+  .main-container .image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .main-container .content {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
   }
 
   .main-container button{
@@ -623,3 +636,4 @@ footer .text span a:hover{
   }
 
 }
+
