@@ -150,10 +150,7 @@ section .main-container{
 }
 
 .main-container .image img{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    
 }
 
 .main-container .image:hover{
