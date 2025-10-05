@@ -1,53 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Salah Amr's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <style>
+    img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
-  <!--navigation menu-->
+
+  <!-- navigation menu -->
   <nav>
     <div class="nav-container">
-      <div class="logo" data-aos="zoom-in"data-aos-duration="1500">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
         <span>Salah</span>
       </div>
       <div class="links">
-        <div class="link" data-aos="fade-up"data-aos-duration="11500"data-aos-delay="100"><a href="#">Home</a></div>
-        <div class="link" data-aos="fade-up"data-aos-duration="11500"data-aos-delay="200"><a href="#about">About</a></div>
-        <div class="link" data-aos="fade-up"data-aos-duration="11500"data-aos-delay="300"><a href="#skills">Skills</a></div>
-        <div class="link" data-aos="fade-up"data-aos-duration="11500"data-aos-delay="400"><a href="#services">Services</a></div>
-        <div class="link" data-aos="fade-up"data-aos-duration="11500"data-aos-delay="500"><a href="#contact">Contact</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="11500" data-aos-delay="100"><a href="#">Home</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="11500" data-aos-delay="200"><a href="#about">About</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="11500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="11500" data-aos-delay="400"><a href="#services">Services</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="11500" data-aos-delay="500"><a href="#contact">Contact</a></div>
       </div>
       <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
     </div>
   </nav>
+
+  <!-- hero section -->
   <section>
     <div class="main-container">
-      <div class="image" data-aos="zoom-out"data-aos-duration="3000">
-        <img src="main.jpg" alt="myImg">
+      <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+        <img src="main.jpg" alt="Salah Amr">
       </div>
       <div class="content">
-        <h1 data-aos="fade-left"data-aos-duration="1500"data-aos-delay="700">
-          Hey I'm <span>Alex</span>
+        <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+          Hey I'm <span>Salah Amr</span>
         </h1>
-        <div class="typewriter" data-aos="fade-right"data-aos-duration="1500"data-aos-delay="900">
+        <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
           I'm a
           <span class="typewriter-text"></span>
-          <label for=""></label>
         </div>
-        <p data-aos="flip-down"data-aos-duration="1500"data-aos-delay="1100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sunt soluta repudiandae tempora dignissimos cumque eaque sed odio consectetur, officia saepe aperiam, nobis aliquam. Maxime consequuntur cupiditate veniam tenetur dolore?</p>
+        <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+          I'm Salah Amr, a dedicated Back-End Developer with a strong focus on building scalable, secure, and high-performance APIs and web services.  
+          I enjoy solving complex problems using clean code and modern technologies like Node.js, Express, and MongoDB.  
+          I believe in continuous learning and delivering real value through my work.
+        </p>
         <div class="social-links">
-          <a href="https://github.com/Salah-Amr" target="_blank" data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/salah-amr-7b76b727b/" target="_blank" data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1400"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/salah.elshaer.14?rdid=vQkTWbf1qjGxiGR5&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GLNZPQVGD%2F" target="_blank" data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1500"><i class="fa-brands fa-facebook"></i></a>
-          <a href="https://www.instagram.com/eng_salah_amr?igsh=Nnp0b21lNTAweDI3&utm_source=ig_contact_invite" target="_blank" data-aos="fade-up"data-aos-duration="1500"data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/Salah-Amr" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/salah-amr-7b76b727b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/salah.elshaer.14" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/eng_salah_amr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
-        <div class="btn" data-aos="zoom-in"data-aos-duration="1500"data-aos-delay="1800">
-          <button onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=salahamrsalahahmed@gmail.com&su=We%20are%20want%20to%20hire%20you!&body=Hello%20Salah%2C%20I%20hope%20you%20are%20doing%20well.%20Due%20to%20your%20professional%20CV%20and%20strong%20portfolio%20as%20well%20as%20the%20amazing%20projects%20you%20have%20done%2C%20we%20have%20decided%20to%20hire%20you%20to%20become%20our%20distinguished%20backend%20developer.')">
+        <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+          <button onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=salahamrsalahahmed@gmail.com&su=We%20want%20to%20hire%20you!')">
             Hire Me
           </button>
         </div>
@@ -55,156 +69,76 @@
     </div>
   </section>
 
-
-<!--About Section Start-->
-<section class="about" id="about">
-  <div class="content">
-    <div class="title"data-aos="fade-up"data-aos-duration="1500"><span>About Me</span></div>
-    <div class="about-details">
-      <div class="left"data-aos="fade-right"data-aos-duration="1500"data-aos-delay="200">
-        <img src="main.jpg" alt="MyImg">
-      </div>
-      <div class="right">
-        <div class="topic"data-aos="fade-left"data-aos-duration="1500"data-aos-delay="300">Back-End Developing Is My Passion</div>
-        <p data-aos="flip-down"data-aos-duration="1500"data-aos-delay="300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam minus, quas perferendis repellat eveniet fugiat quos maiores voluptatum, 
-          obcaecati laborum est voluptatem sunt cupiditate placeat aspernatur iste illo qui?
-        </p>
-        <div class="button" data-aos="zoom-in-right"data-aos-duration="1500"data-aos-delay="200">
-          <a href="CV.pdf" download>
-            <button>Download CV</button>
-          </a>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+          <img src="main.jpg" alt="My Image">
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!--My Skills Section Start-->
-<section class="skills" id="skills">
-  <div class="content">
-    <div class="title"data-aos="fade-up"data-aos-duration="1200"><span>My Skills</span></div>
-    <div class="skills-details">
-      <div class="text">
-        <div class="topic"data-aos="fade-right"data-aos-duration="1200"data-aos-delay="200">
-          Skills Reflects Our Knowledge
-        </div>
-        <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum velit voluptate sunt dignissimos quia consequatur distinctio consectetur ipsum voluptatem dolores molestias fugiat optio harum odit quas eaque, temporibus at?</p>
-        <div class="experience"data-aos="fade-up"data-aos-duration="1200"data-aos-delay="600">
-          <div class="num">10</div>
-          <div class="exp">
-            Years Of <br/> 
-            Experience
+        <div class="right">
+          <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+            Back-End Developing Is My Passion
+          </div>
+          <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+            I'm a passionate Back-End Developer specialized in building high-performance APIs and scalable web applications.  
+            I love working with Node.js, MongoDB, and Express. My goal is to always write clean, efficient, and maintainable code.
+          </p>
+          <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="200">
+            <a href="CV.pdf" download><button>Download CV</button></a>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Services</span></div>
       <div class="boxes">
-        <div class="box">
-          <div class="topic"data-aos="fade-right"data-aos-duration="1200"data-aos-delay="150">HTML</div>
-          <div class="per"data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="300">80%</div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+          <div class="icon"><i class="fas fa-code"></i></div>
+          <div class="topic">Web Development</div>
+          <p>I build responsive, fast, and SEO-friendly websites using modern web technologies.</p>
         </div>
-        <div class="box">
-          <div class="topic"data-aos="fade-right"data-aos-duration="1200"data-aos-delay="150">JavaScript</div>
-          <div class="per"data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="300">90%</div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+          <div class="icon"><i class="fas fa-server"></i></div>
+          <div class="topic">Back-End Development</div>
+          <p>Creating robust and scalable server-side logic with Node.js, Express, and MongoDB.</p>
         </div>
-        <div class="box">
-          <div class="topic"data-aos="fade-right"data-aos-duration="1200"data-aos-delay="150">Node.js</div>
-          <div class="per"data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="300">90%</div>
-        </div>
-        <div class="box">
-          <div class="topic"data-aos="fade-right"data-aos-duration="1200"data-aos-delay="450">MongoDB</div>
-          <div class="per"data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="600">90%</div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+          <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="topic">C++ as an Instructor</div>
+          <p>Teaching C++ programming fundamentals and advanced concepts to aspiring developers.</p>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-
-<!--My Services Section Start-->
-<section class="services" id="services">
-  <div class="content">
-    <div class="title"data-aos="fade-up"data-aos-duration="1200"><span>My Services</span></div>
-    <div class="boxes">
-      <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="400">
-        <div class="icon">
-          <i class="fas fa-desktop"></i>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Project?</div>
+        <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+          <a href="https://wa.link/gihv6q" target="_blank"><button>Let's Chat</button></a>
         </div>
-        <div class="topic">Web Development</div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat temporibus obcaecati dolorum! Laborum quidem eveniet obcaecati eum dolore mollitia sunt tenetur illum, dolores iste consequatur sit in tempore fugiat quam.</p>
-      </div>
-      <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="400">
-        <div class="icon">
-          <i class="fas fa-paint-brush"></i>
-        </div>
-        <div class="topic">Graphic Design</div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat temporibus obcaecati dolorum! Laborum quidem eveniet obcaecati eum dolore mollitia sunt tenetur illum, dolores iste consequatur sit in tempore fugiat quam.</p>
-      </div>
-      <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="400">
-        <div class="icon">
-          <i class="fas fa-chart-line"></i>
-        </div>
-        <div class="topic">Digital Marketing</div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat temporibus obcaecati dolorum! Laborum quidem eveniet obcaecati eum dolore mollitia sunt tenetur illum, dolores iste consequatur sit in tempore fugiat quam.</p>
-      </div>
-      <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="400">
-        <div class="icon">
-          <i class="fas fa-android"></i>
-        </div>
-        <div class="topic">icon Design</div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat temporibus obcaecati dolorum! Laborum quidem eveniet obcaecati eum dolore mollitia sunt tenetur illum, dolores iste consequatur sit in tempore fugiat quam.</p>
-      </div>
-      <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="400">
-        <div class="icon">
-          <i class="fas fa-camera-retro"></i>
-        </div>
-        <div class="topic">Photography</div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat temporibus obcaecati dolorum! Laborum quidem eveniet obcaecati eum dolore mollitia sunt tenetur illum, dolores iste consequatur sit in tempore fugiat quam.</p>
-      </div>
-      <div class="box"data-aos="fade-up"data-aos-duration="1500"data-aos-delay="400">
-        <div class="icon">
-          <i class="fas fa-tablet-alt"></i>
-        </div>
-        <div class="topic">Apps Development</div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat temporibus obcaecati dolorum! Laborum quidem eveniet obcaecati eum dolore mollitia sunt tenetur illum, dolores iste consequatur sit in tempore fugiat quam.</p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!--Contact Me section start-->
-<section class="contact" id="contact">
-  <div class="content">
-    <div class="title"data-aos="fade-up"data-aos-duration="1500">
-      <span>Contact Me</span>
-    </div>
+  <!-- Footer -->
+  <footer>
     <div class="text">
-      <div class="topic"data-aos="fade-right"data-aos-duration="1500"data-aos-delay="200">Have Any Project?</div>
-      <div class="button"data-aos="zoom-in"data-aos-duration="1500"data-aos-delay="400">
-        <a href="https://wa.link/gihv6q" target="_blank">
-          <button>Let's Chat</button>
-        </a>
-      </div>
+      <span>Created By <a href="#">Salah_Amr</a> | &#169; 2024 All Rights Reserved</span>
     </div>
-  </div>
-</section>
-
-<!--Footer Section start-->
-<footer>
-  <div class="text">
-    <span>Created By
-    <a href="#">Salah_Amr</a>
-    |&#169; 2024 All Roghts Reserved
-    </span>
-  </div>
-</footer>
+  </footer>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
+  <script>AOS.init();</script>
   <script src="script.js"></script>
 </body>
 </html>
